@@ -1,0 +1,67 @@
+// font
+$flagFontEN:-apple-system-font,"Helvetica Neue";
+$flagFontCN:"PingFang SC","Hiragino Sans GB","Microsoft YaHei";
+$flagFontSans:sans-serif;
+$flagFontDefault:$flagFontEN,$flagFontSans;
+// color
+$color-primary: #20a0ff;//#18c79c
+$color-warning: #F7BA2A;
+// num
+$px0: 0px;
+$px1: 1px;
+$px5: 5px;
+$px10: 10px;
+$px12: 12px;
+$px13: 13px;
+$px14: 14px;
+$px15: 15px;
+$px16: 16px;
+$px18: 18px;
+$px20: 20px;
+$px22: 22px;
+$px24: 24px;
+$px25: 25px;
+$px26: 26px;
+$px28: 28px;
+$px30: 30px;
+$px32: 32px;
+$px48: 48px;
+$px50: 50px;
+$px100: 100px;
+
+$length0: 0;
+$length20: 20%;
+$length50: 50%;
+$length70: 70%;
+$length100: 100%;
+
+// position
+$relative: relative;
+$absolute: absolute;
+$fixed: fixed;
+
+/* 颜色 */
+// 主色调
+$primary: #108EE9;
+// 次色调
+$minor: #595959;
+$Blue: #20A0FF;
+$Success: #13CE66;
+$Warning: #F7BA2A;
+$Danger: #FF4949;
+$LightBlue: #58B7FF;
+$DarkBlue: #1D8CE0;
+$Black: #1F2D3D;
+$LightBlack: #324057;
+$ExtraLightBlack: #475669;
+$Silver: #8492A6;
+$LightSilver: #99A9BF;
+$ExtraLightSilver: #C0CCDA;
+$Gray: #D3DCE6;
+$LightGray: #E5E9F2;
+$ExtraLightGray: #EFF2F7;
+$DarkWhite: #F9FAFC;
+$White: #FFFFFF;
+
+$costom1: #E5E3E2;
+$costom2: #EEEAE8;

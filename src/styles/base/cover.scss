@@ -1,0 +1,64 @@
+.el-dialog__body{
+  .form-mask{
+    position: absolute !important;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 900;
+  }
+}
+
+form.custom-form{
+  .el-form-item__label{
+    font-size: 12px !important;
+  }
+
+  .el-form-item__content{
+    font-size: 12px !important;
+  }
+
+  input,textarea{
+    width: 320px;
+  }
+}
+
+.search-list-wrp{
+  .el-loading-mask{
+    z-index: 100;
+  }
+}
+
+.el-alert--info,.el-alert--success,.el-alert--warning,.el-alert--error{
+  background: none;
+  border-width: 1px;
+  border-style: solid;
+  color: #666;
+}
+.el-alert--info {
+  border-color: #50bfff;
+  .el-alert__icon{
+    color: #50bfff;
+  }
+}
+.el-alert--success {
+  border-color: #13ce66;
+  .el-alert__icon{
+    color: #13ce66;
+  }
+}
+.el-alert--warning {
+  border-color: #f7ba2a;
+  .el-alert__icon{
+    color: #f7ba2a;
+  }
+}
+.el-alert--error {
+  border-color: #ff4949;
+  .el-alert__icon{
+    color: #ff4949;
+  }
+}
+.el-transfer-panel__body{
+  box-sizing: content-box;
+}

@@ -1,0 +1,25 @@
+{
+    "titile": "前端后台管理脚手架",
+    "description": "帜讯成都分公司前端后台项目通用脚手架，公用组件、方法、插件",
+    "language" : "zh-hans",
+    "plugins": [
+        "-sharing", 
+        "-font-settings", 
+        "-lunr", 
+        "-search", 
+        "-highlight",
+        "search-plus", 
+        "splitter", 
+        "alerts", 
+        "prism",
+        "prism-themes",
+        "theme-comscore"
+    ],
+    "pluginsConfig": {
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ]
+        }
+    }
+}
